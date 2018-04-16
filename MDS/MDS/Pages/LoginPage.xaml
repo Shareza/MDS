@@ -1,8 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:MDS"
-             x:Class="MDS.MainPage"
+             x:Class="MDS.LoginPage"
              BackgroundColor="#121F28">
 
     <StackLayout Spacing="15">
@@ -11,23 +10,20 @@
                HorizontalOptions="FillAndExpand"
                HeightRequest="50"
                Source="mdsLogo.png"/>
-
-        <Entry x:Name="LoginField"
+        
+        <Entry x:Name="UsernameEntry"
                BackgroundColor="White"
                Placeholder="Login"/>
 
-        <Entry x:Name="PasswordField"
-               BackgroundColor="white"
+        <Entry x:Name="PasswordEntry"
+               BackgroundColor="White"
                Placeholder="Hasło"
                IsPassword="True"/>
 
         <Button x:Name="LoginButton"
                 VerticalOptions="Center"
-                Text="Login"/>
-
+                Text="Login"
+                Clicked="OnLoginButtonClicked"/>
 
     </StackLayout>
-
-
-
 </ContentPage>

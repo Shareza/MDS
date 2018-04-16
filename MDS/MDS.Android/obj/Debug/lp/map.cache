@@ -24,3 +24,7 @@ Xamarin.Forms.Xaml
 netstandard
 System.ComponentModel
 System.Reflection.Extensions
+System.Net.Http.Extensions
+System.Net.Http.Primitives
+RestSharp
+Newtonsoft.Json

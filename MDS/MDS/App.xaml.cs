@@ -9,14 +9,23 @@ namespace MDS
 {
 	public partial class App : Application
 	{
-		public App ()
-		{
-			InitializeComponent();
+        public static bool IsUserLoggedIn { get; set; }
 
-			MainPage = new MDS.MainPage();
-		}
+        public App()
+        {
+            if (!IsUserLoggedIn)
+            {
+                MainPage = new NavigationPage(new LoginPage());
+                ((NavigationPage)Current.MainPage).BarBackgroundColor = Color.FromHex("#121F28");
+            }
+            else
+            {
+                MainPage = new NavigationPage(new MainPage());
 
-		protected override void OnStart ()
+            }
+        }
+
+        protected override void OnStart ()
 		{
 			// Handle when your app starts
 		}

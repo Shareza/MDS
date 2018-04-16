@@ -4,8 +4,13 @@ C:\Code\MDS\MDS\MDS.Android\obj\Debug\android\assets\Java.Interop.dll
 C:\Code\MDS\MDS\MDS.Android\obj\Debug\android\assets\MDS.dll
 C:\Code\MDS\MDS\MDS.Android\obj\Debug\android\assets\Mono.Android.dll
 C:\Code\MDS\MDS\MDS.Android\obj\Debug\android\assets\mscorlib.dll
+C:\Code\MDS\MDS\MDS.Android\obj\Debug\android\assets\Newtonsoft.Json.dll
+C:\Code\MDS\MDS\MDS.Android\obj\Debug\android\assets\RestSharp.dll
 C:\Code\MDS\MDS\MDS.Android\obj\Debug\android\assets\System.Core.dll
 C:\Code\MDS\MDS\MDS.Android\obj\Debug\android\assets\System.dll
+C:\Code\MDS\MDS\MDS.Android\obj\Debug\android\assets\System.Net.Http.dll
+C:\Code\MDS\MDS\MDS.Android\obj\Debug\android\assets\System.Net.Http.Extensions.dll
+C:\Code\MDS\MDS\MDS.Android\obj\Debug\android\assets\System.Net.Http.Primitives.dll
 C:\Code\MDS\MDS\MDS.Android\obj\Debug\android\assets\System.Runtime.dll
 C:\Code\MDS\MDS\MDS.Android\obj\Debug\android\assets\System.Xml.dll
 C:\Code\MDS\MDS\MDS.Android\obj\Debug\android\assets\System.Xml.Linq.dll
@@ -50,7 +55,6 @@ C:\Code\MDS\MDS\MDS.Android\obj\Debug\android\assets\System.Globalization.Extens
 C:\Code\MDS\MDS\MDS.Android\obj\Debug\android\assets\System.IO.Compression.dll
 C:\Code\MDS\MDS\MDS.Android\obj\Debug\android\assets\System.IO.Compression.FileSystem.dll
 C:\Code\MDS\MDS\MDS.Android\obj\Debug\android\assets\System.ComponentModel.Composition.dll
-C:\Code\MDS\MDS\MDS.Android\obj\Debug\android\assets\System.Net.Http.dll
 C:\Code\MDS\MDS\MDS.Android\obj\Debug\android\assets\System.Runtime.InteropServices.RuntimeInformation.dll
 C:\Code\MDS\MDS\MDS.Android\obj\Debug\android\assets\System.Runtime.Serialization.dll
 C:\Code\MDS\MDS\MDS.Android\obj\Debug\android\assets\System.ServiceModel.Internals.dll
@@ -60,6 +64,7 @@ C:\Code\MDS\MDS\MDS.Android\obj\Debug\android\assets\System.Security.Cryptograph
 C:\Code\MDS\MDS\MDS.Android\obj\Debug\android\assets\System.Security.SecureString.dll
 C:\Code\MDS\MDS\MDS.Android\obj\Debug\android\assets\System.Web.Services.dll
 C:\Code\MDS\MDS\MDS.Android\obj\Debug\android\assets\System.Xml.XPath.XDocument.dll
+C:\Code\MDS\MDS\MDS.Android\obj\Debug\android\assets\System.Net.Primitives.dll
 C:\Code\MDS\MDS\MDS.Android\obj\Debug\android\assets\System.Threading.Tasks.dll
 C:\Code\MDS\MDS\MDS.Android\obj\Debug\android\assets\System.ObjectModel.dll
 C:\Code\MDS\MDS\MDS.Android\obj\Debug\android\assets\System.Globalization.dll

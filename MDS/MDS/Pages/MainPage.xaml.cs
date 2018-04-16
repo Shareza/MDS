@@ -9,9 +9,16 @@ namespace MDS
 {
 	public partial class MainPage : ContentPage
 	{
-		public MainPage()
-		{
-			InitializeComponent();
+        private User User;
+
+        public MainPage() { }
+
+        public MainPage(User user)
+        {
+            this.User = user;
+            InitializeComponent();
+            
 		}
 	}
+
 }

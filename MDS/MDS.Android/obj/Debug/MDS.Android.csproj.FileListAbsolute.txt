@@ -184,3 +184,10 @@ C:\Code\MDS\MDS\MDS.Android\obj\Debug\linksrc\System.Transactions.pdb
 C:\Code\MDS\MDS\MDS.Android\obj\Debug\linksrc\System.Web.Services.pdb
 C:\Code\MDS\MDS\MDS.Android\obj\Debug\linksrc\System.Xml.Linq.pdb
 C:\Code\MDS\MDS\MDS.Android\obj\Debug\linksrc\System.Xml.pdb
+C:\Code\MDS\MDS\MDS.Android\bin\Debug\MDS.Android.dll
+C:\Code\MDS\MDS\MDS.Android\obj\Debug\linksrc\MDS.pdb
+C:\Code\MDS\MDS\MDS.Android\obj\Debug\linksrc\MDS.Android.dll.mdb
+C:\Code\MDS\MDS\MDS.Android\obj\Debug\linksrc\FormsViewGroup.dll.mdb
+C:\Code\MDS\MDS\MDS.Android\obj\Debug\linksrc\Xamarin.Forms.Core.dll.mdb
+C:\Code\MDS\MDS\MDS.Android\obj\Debug\linksrc\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Code\MDS\MDS\MDS.Android\obj\Debug\linksrc\Xamarin.Forms.Xaml.dll.mdb

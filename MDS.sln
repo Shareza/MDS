@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.27428.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDS.Android", "MDS\MDS.Android\MDS.Android.csproj", "{6D6EA146-C98F-4C8B-9D0D-11F55908C04D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDS", "MDS\MDS\MDS.csproj", "{983B639D-15E5-491A-962A-699A3A0F7D1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MDS", "MDS\MDS\MDS.csproj", "{983B639D-15E5-491A-962A-699A3A0F7D1E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
