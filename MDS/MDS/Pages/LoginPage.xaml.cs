@@ -1,12 +1,5 @@
 ﻿using RestSharp;
-using RestSharp.Authenticators;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.Http;
-using System.Text;
-using System.Threading.Tasks;
-using System.Net;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using RestSharp.Deserializers;
@@ -34,10 +27,7 @@ namespace MDS
             if (isValid)
             {
                 App.IsUserLoggedIn = true;
-                //Navigation.InsertPageBefore(new MainPage(), this);
-                //await Navigation.PopAsync();
                 var mainPage = new MainPage(user);
-                //mainPage.BindingContext = user;
                 await Navigation.PushAsync(mainPage);
             }
             else
@@ -51,21 +41,12 @@ namespace MDS
         {
             //var encryptedPassword = Encryptor.MD5Hash(user.Password);
 
+            var client = new RestSharpClient();
+            var response = client.Login(user);
 
-            var client = new RestClient("http://mds.kopnet.pl");
-                client.AddHandler("*", new JsonDeserializer());
-
-            var request = new RestRequest("/logIn", Method.POST);
-                request.AddParameter("inputEmailPhone", user.Username);
-                request.AddParameter("inputPassword", user.Password);
-
-
-
-            var response = client.Execute<LoginResponse>(request);
-
-            if (response.Data.ApiToken != null)
+            if (response.ApiToken != null)
             {
-                user.Token = response.Data.ApiToken;
+                user.Token = response.ApiToken;
                 return true;
             }
             else

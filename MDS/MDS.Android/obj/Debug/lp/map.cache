@@ -1,6 +1,10 @@
-MDS
-System.Runtime
 FormsViewGroup
+MDS
+Newtonsoft.Json
+RestSharp
+System.Net.Http.Extensions
+System.Net.Http.Primitives
+System.Runtime
 Xamarin.Android.Support.Animated.Vector.Drawable
 Xamarin.Android.Support.Annotations
 Xamarin.Android.Support.Compat
@@ -24,7 +28,3 @@ Xamarin.Forms.Xaml
 netstandard
 System.ComponentModel
 System.Reflection.Extensions
-System.Net.Http.Extensions
-System.Net.Http.Primitives
-RestSharp
-Newtonsoft.Json

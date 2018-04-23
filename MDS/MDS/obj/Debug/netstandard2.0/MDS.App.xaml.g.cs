@@ -11,7 +11,7 @@
 namespace MDS {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Shareza\\source\\repos\\MDS\\MDS\\MDS\\App.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Code\\MDS\\MDS\\MDS\\App.xaml")]
     public partial class App : global::Xamarin.Forms.Application {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

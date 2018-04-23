@@ -4,8 +4,8 @@
              xmlns:local="clr-namespace:MDS"
              x:Class="MDS.MainPage">
 
-    <Label Text="Schedule"
-               HorizontalOptions="Center"
-               VerticalOptions="Center"/>
+    <!--<Button Text ="GetEvents"
+                HorizontalOptions="Center"
+                Clicked="OnGetEventsBtnClicked"/>-->
 
 </ContentPage>
