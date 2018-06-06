@@ -1,11 +1,12 @@
 ﻿using System;
-
 using Android.App;
 using Android.Content.PM;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Xamarin.Forms;
+using Plugin.Toasts;
 
 namespace MDS.Droid
 {
@@ -19,7 +20,12 @@ namespace MDS.Droid
 
             base.OnCreate(bundle);
 
-            global::Xamarin.Forms.Forms.Init(this, bundle);
+            //global::Xamarin.Forms.
+            Forms.Init(this, bundle);
+
+            DependencyService.Register<ToastNotificatorImplementation>();
+            ToastNotificatorImplementation.Init(this);
+
             LoadApplication(new App());
         }
     }

@@ -6,7 +6,7 @@ namespace MDS.Models
 {
     public class Schedule
     {
-        public string Day { get; set; }
+        public DateTime Day { get; set; }
         public List<Event> Events { get; set; }
     }
 }

@@ -65,6 +65,31 @@
           "lib/MonoAndroid10/_._": {}
         }
       },
+      "Toasts.Forms.Plugin/2.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid10/Toasts.Forms.Plugin.Abstractions.dll": {},
+          "lib/MonoAndroid10/Toasts.Forms.Plugin.Droid.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/Toasts.Forms.Plugin.Abstractions.dll": {},
+          "lib/MonoAndroid10/Toasts.Forms.Plugin.Droid.dll": {}
+        }
+      },
+      "Xam.Plugins.Messaging/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Android.Support.v4": "23.3.0"
+        },
+        "compile": {
+          "lib/MonoAndroid10/Plugin.Messaging.Abstractions.dll": {},
+          "lib/MonoAndroid10/Plugin.Messaging.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/Plugin.Messaging.Abstractions.dll": {},
+          "lib/MonoAndroid10/Plugin.Messaging.dll": {}
+        }
+      },
       "Xamarin.Android.Support.Animated.Vector.Drawable/25.4.0.2": {
         "type": "package",
         "dependencies": {
@@ -361,6 +386,8 @@
           "Microsoft.Net.Http": "2.2.29",
           "Newtonsoft.Json": "11.0.2",
           "RestSharp": "106.2.1",
+          "Toasts.Forms.Plugin": "2.0.4",
+          "Xam.Plugins.Messaging": "4.0.0",
           "Xamarin.Forms": "2.5.0.280555"
         },
         "compile": {
@@ -629,6 +656,74 @@
         "system.valuetuple.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "Toasts.Forms.Plugin/2.0.4": {
+      "sha512": "/2a6jvsTEOl0W8rgC20YkEupZhFCiZ3frE/GK9NLcBNvLRY4LT8kKsyRKk7dhktIWn9nb7EzkHvommeyiUVOXg==",
+      "type": "package",
+      "path": "toasts.forms.plugin/2.0.4",
+      "files": [
+        "content/portable-netcore451+wpa81/FrameStyle.xaml",
+        "content/portable-netcore451+wpa81/Icons/error.png",
+        "content/portable-netcore451+wpa81/Icons/info.png",
+        "content/portable-netcore451+wpa81/Icons/success.png",
+        "content/portable-netcore451+wpa81/Icons/warning.png",
+        "lib/MonoAndroid10/Toasts.Forms.Plugin.Abstractions.dll",
+        "lib/MonoAndroid10/Toasts.Forms.Plugin.Abstractions.pdb",
+        "lib/MonoAndroid10/Toasts.Forms.Plugin.Droid.dll",
+        "lib/MonoAndroid10/Toasts.Forms.Plugin.Droid.pdb",
+        "lib/Xamarin.iOS10/Toasts.Forms.Plugin.Abstractions.dll",
+        "lib/Xamarin.iOS10/Toasts.Forms.Plugin.Abstractions.pdb",
+        "lib/Xamarin.iOS10/Toasts.Forms.Plugin.iOS.dll",
+        "lib/portable-net45+wp8+win8+wpa81+netcore451+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Toasts.Forms.Plugin.Abstractions.dll",
+        "lib/portable-net45+wp8+win8+wpa81+netcore451+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Toasts.Forms.Plugin.Abstractions.pdb",
+        "lib/portable-netcore451+wpa81/Toasts.Forms.Plugin.Abstractions.dll",
+        "lib/portable-netcore451+wpa81/Toasts.Forms.Plugin.Abstractions.pdb",
+        "lib/portable-netcore451+wpa81/Toasts.Forms.Plugin.WinRT.dll",
+        "lib/portable-netcore451+wpa81/Toasts.Forms.Plugin.WinRT.pdb",
+        "lib/wp8/Toasts.Forms.Plugin.Abstractions.dll",
+        "lib/wp8/Toasts.Forms.Plugin.Abstractions.pdb",
+        "lib/wp8/Toasts.Forms.Plugin.WindowsPhone.dll",
+        "lib/wp8/Toasts.Forms.Plugin.WindowsPhone.pdb",
+        "toasts.forms.plugin.2.0.4.nupkg.sha512",
+        "toasts.forms.plugin.nuspec"
+      ]
+    },
+    "Xam.Plugins.Messaging/4.0.0": {
+      "sha512": "b3Y69JzFhg4QyLDiM5vHnrrQ1SBc7aaZqpRVR3j8BTmxtx+roAj24ko4JgpeSpm8i59RxC+nldEaqDgvKnjv2w==",
+      "type": "package",
+      "path": "xam.plugins.messaging/4.0.0",
+      "files": [
+        "lib/MonoAndroid10/Plugin.Messaging.Abstractions.dll",
+        "lib/MonoAndroid10/Plugin.Messaging.Abstractions.pdb",
+        "lib/MonoAndroid10/Plugin.Messaging.Abstractions.xml",
+        "lib/MonoAndroid10/Plugin.Messaging.dll",
+        "lib/MonoAndroid10/Plugin.Messaging.pdb",
+        "lib/MonoAndroid10/Plugin.Messaging.xml",
+        "lib/UAP10/Plugin.Messaging.Abstractions.dll",
+        "lib/UAP10/Plugin.Messaging.Abstractions.pdb",
+        "lib/UAP10/Plugin.Messaging.Abstractions.xml",
+        "lib/UAP10/Plugin.Messaging.dll",
+        "lib/UAP10/Plugin.Messaging.pdb",
+        "lib/UAP10/Plugin.Messaging.xml",
+        "lib/Xamarin.iOS10/Plugin.Messaging.Abstractions.dll",
+        "lib/Xamarin.iOS10/Plugin.Messaging.Abstractions.xml",
+        "lib/Xamarin.iOS10/Plugin.Messaging.dll",
+        "lib/Xamarin.iOS10/Plugin.Messaging.xml",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.Messaging.Abstractions.dll",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.Messaging.Abstractions.pdb",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.Messaging.Abstractions.xml",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.Messaging.dll",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.Messaging.pdb",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.Messaging.xml",
+        "lib/win8/Plugin.Messaging.Abstractions.dll",
+        "lib/win8/Plugin.Messaging.Abstractions.pdb",
+        "lib/win8/Plugin.Messaging.Abstractions.xml",
+        "lib/win8/Plugin.Messaging.dll",
+        "lib/win8/Plugin.Messaging.pdb",
+        "lib/win8/Plugin.Messaging.xml",
+        "xam.plugins.messaging.4.0.0.nupkg.sha512",
+        "xam.plugins.messaging.nuspec"
       ]
     },
     "Xamarin.Android.Support.Animated.Vector.Drawable/25.4.0.2": {
@@ -1025,6 +1120,8 @@
       "Microsoft.Net.Http >= 2.2.29",
       "Newtonsoft.Json >= 11.0.2",
       "RestSharp >= 106.2.1",
+      "Toasts.Forms.Plugin >= 2.0.4",
+      "Xam.Plugins.Messaging >= 4.0.0",
       "Xamarin.Android.Support.Design >= 25.4.0.2",
       "Xamarin.Android.Support.v4 >= 25.4.0.2",
       "Xamarin.Android.Support.v7.AppCompat >= 25.4.0.2",
@@ -1086,6 +1183,14 @@
           "RestSharp": {
             "target": "Package",
             "version": "[106.2.1, )"
+          },
+          "Toasts.Forms.Plugin": {
+            "target": "Package",
+            "version": "[2.0.4, )"
+          },
+          "Xam.Plugins.Messaging": {
+            "target": "Package",
+            "version": "[4.0.0, )"
           },
           "Xamarin.Android.Support.Design": {
             "target": "Package",

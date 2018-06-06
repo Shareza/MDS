@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MDS.Pages.EventDetailsPage">
+
+    <StackLayout>
+
+        <Label x:Name="UserId"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"/>
+
+        <Label x:Name="UserLabel"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"/>
+
+        <Label x:Name="EventTimeSpanLabel"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"/>
+
+        <Label x:Name="EmailLabel"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"/>
+
+        <Label x:Name="PhoneNumberLabel"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"/>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Image x:Name="CallImage"
+                   Grid.Row="0"
+                   Grid.Column="0"
+                   Source="callLogo.png"
+                   WidthRequest="30"
+                   HeightRequest="30"
+                   HorizontalOptions="Center">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                        Tapped="OnCallImageTapped"
+                        NumberOfTapsRequired="1"/>
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Image x:Name="TextImage"
+                   Grid.Row="0"
+                   Grid.Column="1"
+                   Source="textLogo.png"
+                   WidthRequest="40"
+                   HeightRequest="40"
+                   HorizontalOptions="Center">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                        Tapped="OnTextImageTapped"
+                        NumberOfTapsRequired="1"/>
+                </Image.GestureRecognizers>
+            </Image>
+        </Grid>
+    </StackLayout>
+</ContentPage>

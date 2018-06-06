@@ -17,12 +17,13 @@ C:\Code\MDS\MDS\MDS\bin\Debug\netstandard2.0\Mono.Android.dll
 C:\Code\MDS\MDS\MDS\bin\Debug\netstandard2.0\Mono.Android.pdb
 C:\Code\MDS\MDS\MDS\bin\Debug\netstandard2.0\Mono.Android.xml
 C:\Code\MDS\MDS\MDS\obj\Debug\netstandard2.0\MDS.csproj.CoreCompileInputs.cache
-C:\Code\MDS\MDS\MDS\obj\Debug\netstandard2.0\MDS.App.xaml.g.cs
-C:\Code\MDS\MDS\MDS\obj\Debug\netstandard2.0\MDS.Pages.LoginPage.xaml.g.cs
-C:\Code\MDS\MDS\MDS\obj\Debug\netstandard2.0\MDS.Pages.MainPage.xaml.g.cs
 C:\Code\MDS\MDS\MDS\obj\Debug\netstandard2.0\MDS.AssemblyInfoInputs.cache
 C:\Code\MDS\MDS\MDS\obj\Debug\netstandard2.0\MDS.AssemblyInfo.cs
 C:\Code\MDS\MDS\MDS\obj\Debug\netstandard2.0\MDS.csproj.CopyComplete
 C:\Code\MDS\MDS\MDS\obj\Debug\netstandard2.0\MDS.dll
 C:\Code\MDS\MDS\MDS\obj\Debug\netstandard2.0\MDS.pdb
+C:\Code\MDS\MDS\MDS\obj\Debug\netstandard2.0\MDS.App.xaml.g.cs
+C:\Code\MDS\MDS\MDS\obj\Debug\netstandard2.0\MDS.Pages.EventDetailsPage.xaml.g.cs
+C:\Code\MDS\MDS\MDS\obj\Debug\netstandard2.0\MDS.Pages.LoginPage.xaml.g.cs
+C:\Code\MDS\MDS\MDS\obj\Debug\netstandard2.0\MDS.Pages.MainPage.xaml.g.cs
 C:\Code\MDS\MDS\MDS\obj\Debug\netstandard2.0\MDS.csprojResolveAssemblyReference.cache

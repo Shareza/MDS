@@ -1,8 +1,6 @@
-﻿using RestSharp;
-using System;
+﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-using RestSharp.Deserializers;
 
 namespace MDS
 {
@@ -16,6 +14,8 @@ namespace MDS
 
         public async void OnLoginButtonClicked(object sender, EventArgs e)
         {
+            LoadingSpinner.IsRunning = true;
+
             var user = new User
             {
                 Username = UsernameEntry.Text,
@@ -32,6 +32,7 @@ namespace MDS
             }
             else
             {
+                LoadingSpinner.IsRunning = false;
                 PasswordEntry.Text = string.Empty;
                 await DisplayAlert("Błąd", "Podane hasło jest nieprawidłowe.", "OK");
             }

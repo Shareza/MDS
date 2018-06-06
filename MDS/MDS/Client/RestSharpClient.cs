@@ -1,6 +1,7 @@
 ﻿using MDS.Models;
 using RestSharp;
 using RestSharp.Deserializers;
+using System;
 
 namespace MDS
 {
@@ -25,11 +26,15 @@ namespace MDS
 
         public EventsResponse GetEventsByCount(string userToken)
         {
+            //var date1 = "2018-4-16";
+            //var date2 = "2018-4-22";
+
 
             var request = new RestRequest(Method.POST);
             request.RequestFormat = DataFormat.Json;
             request.AddBody(new ApiToken(userToken));
-
+            //request.AddParameter("fromDate", date1);
+            //request.AddParameter("toDate", date2);
             request.AddHeader("Content-type", "application/json");
 
             request.Resource = "/getEvents";

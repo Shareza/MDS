@@ -1,10 +1,14 @@
 FormsViewGroup
 MDS
 Newtonsoft.Json
+Plugin.Messaging.Abstractions
+Plugin.Messaging
 RestSharp
 System.Net.Http.Extensions
 System.Net.Http.Primitives
 System.Runtime
+Toasts.Forms.Plugin.Abstractions
+Toasts.Forms.Plugin.Droid
 Xamarin.Android.Support.Animated.Vector.Drawable
 Xamarin.Android.Support.Annotations
 Xamarin.Android.Support.Compat
@@ -26,5 +30,6 @@ Xamarin.Forms.Platform.Android
 Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
 netstandard
+System.Resources.ResourceManager
 System.ComponentModel
 System.Reflection.Extensions
