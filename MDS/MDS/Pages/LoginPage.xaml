@@ -11,10 +11,6 @@
                HeightRequest="50"
                Source="mdsLogo.png"/>
 
-        <ActivityIndicator x:Name="LoadingSpinner"
-                           Color="White"
-                           IsRunning="False"/>
-
         <Entry x:Name="UsernameEntry"
                BackgroundColor="White"
                Placeholder="Login"/>
